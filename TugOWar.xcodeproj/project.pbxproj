@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BABD0A14F41619001CF318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BABD0914F41619001CF318 /* UIKit.framework */; };
+		05BABD0C14F41619001CF318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BABD0B14F41619001CF318 /* Foundation.framework */; };
+		05BABD0E14F41619001CF318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BABD0D14F41619001CF318 /* CoreGraphics.framework */; };
+		05BABD1414F41619001CF318 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05BABD1214F41619001CF318 /* InfoPlist.strings */; };
+		05BABD1614F41619001CF318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD1514F41619001CF318 /* main.m */; };
+		05BABD1A14F41619001CF318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD1914F41619001CF318 /* AppDelegate.m */; };
+		05BABD1D14F41619001CF318 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BABD1B14F41619001CF318 /* MainStoryboard.storyboard */; };
+		05BABD2014F41619001CF318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD1F14F41619001CF318 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05BABD0514F41619001CF318 /* TugOWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugOWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BABD0914F41619001CF318 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05BABD0B14F41619001CF318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05BABD0D14F41619001CF318 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05BABD1114F41619001CF318 /* TugOWar-Info.plist */ = {isa = PBXFileReference; path = "TugOWar-Info.plist"; sourceTree = "<group>"; };
+		05BABD1314F41619001CF318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05BABD1514F41619001CF318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05BABD1714F41619001CF318 /* TugOWar-Prefix.pch */ = {isa = PBXFileReference; path = "TugOWar-Prefix.pch"; sourceTree = "<group>"; };
+		05BABD1814F41619001CF318 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		05BABD1914F41619001CF318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05BABD1C14F41619001CF318 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		05BABD1E14F41619001CF318 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		05BABD1F14F41619001CF318 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BABD0214F41619001CF318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BABD0A14F41619001CF318 /* UIKit.framework in Frameworks */,
+				05BABD0C14F41619001CF318 /* Foundation.framework in Frameworks */,
+				05BABD0E14F41619001CF318 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BABCFA14F41619001CF318 = {
+			isa = PBXGroup;
+			children = (
+				05BABD0F14F41619001CF318 /* TugOWar */,
+				05BABD0814F41619001CF318 /* Frameworks */,
+				05BABD0614F41619001CF318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05BABD0614F41619001CF318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BABD0514F41619001CF318 /* TugOWar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BABD0814F41619001CF318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05BABD0914F41619001CF318 /* UIKit.framework */,
+				05BABD0B14F41619001CF318 /* Foundation.framework */,
+				05BABD0D14F41619001CF318 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05BABD0F14F41619001CF318 /* TugOWar */ = {
+			isa = PBXGroup;
+			children = (
+				05BABD1814F41619001CF318 /* AppDelegate.h */,
+				05BABD1914F41619001CF318 /* AppDelegate.m */,
+				05BABD1B14F41619001CF318 /* MainStoryboard.storyboard */,
+				05BABD1E14F41619001CF318 /* ViewController.h */,
+				05BABD1F14F41619001CF318 /* ViewController.m */,
+				05BABD1014F41619001CF318 /* Supporting Files */,
+			);
+			path = TugOWar;
+			sourceTree = "<group>";
+		};
+		05BABD1014F41619001CF318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05BABD1114F41619001CF318 /* TugOWar-Info.plist */,
+				05BABD1214F41619001CF318 /* InfoPlist.strings */,
+				05BABD1514F41619001CF318 /* main.m */,
+				05BABD1714F41619001CF318 /* TugOWar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BABD0414F41619001CF318 /* TugOWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BABD2314F41619001CF318 /* Build configuration list for PBXNativeTarget "TugOWar" */;
+			buildPhases = (
+				05BABD0114F41619001CF318 /* Sources */,
+				05BABD0214F41619001CF318 /* Frameworks */,
+				05BABD0314F41619001CF318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TugOWar;
+			productName = TugOWar;
+			productReference = 05BABD0514F41619001CF318 /* TugOWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BABCFC14F41619001CF318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = fashionBuddha;
+			};
+			buildConfigurationList = 05BABCFF14F41619001CF318 /* Build configuration list for PBXProject "TugOWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05BABCFA14F41619001CF318;
+			productRefGroup = 05BABD0614F41619001CF318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BABD0414F41619001CF318 /* TugOWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BABD0314F41619001CF318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BABD1414F41619001CF318 /* InfoPlist.strings in Resources */,
+				05BABD1D14F41619001CF318 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BABD0114F41619001CF318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BABD1614F41619001CF318 /* main.m in Sources */,
+				05BABD1A14F41619001CF318 /* AppDelegate.m in Sources */,
+				05BABD2014F41619001CF318 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05BABD1214F41619001CF318 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BABD1314F41619001CF318 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05BABD1B14F41619001CF318 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BABD1C14F41619001CF318 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05BABD2114F41619001CF318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		05BABD2214F41619001CF318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05BABD2414F41619001CF318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TugOWar/TugOWar-Prefix.pch";
+				INFOPLIST_FILE = "TugOWar/TugOWar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05BABD2514F41619001CF318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TugOWar/TugOWar-Prefix.pch";
+				INFOPLIST_FILE = "TugOWar/TugOWar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BABCFF14F41619001CF318 /* Build configuration list for PBXProject "TugOWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BABD2114F41619001CF318 /* Debug */,
+				05BABD2214F41619001CF318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BABD2314F41619001CF318 /* Build configuration list for PBXNativeTarget "TugOWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BABD2414F41619001CF318 /* Debug */,
+				05BABD2514F41619001CF318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BABCFC14F41619001CF318 /* Project object */;
+}
