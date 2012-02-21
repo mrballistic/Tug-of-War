@@ -3,12 +3,14 @@
 //  TugOWar
 //
 //  Created by Todd Greco on 2/21/12.
-//  Copyright (c) 2012 fashionBuddha. All rights reserved.
+//  Copyright (c) 2012 carlscripter.com. All rights reserved.
 //
 
 #import "ViewController.h"
 
 @implementation ViewController
+
+@synthesize pageLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -34,6 +36,18 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    // define the font
+    UIFont *titleFont = [UIFont fontWithName:@"Knockout" size:72];
+   
+    // put in the text
+    pageLabel.text = @"Tug of war!".uppercaseString;
+    
+    // adjust settings for label
+    pageLabel.font = titleFont;    
+    pageLabel.textColor = UIColorFromRGB(mainGreen);
+    pageLabel.backgroundColor = UIColorFromRGBA(0x000000, 0.0);
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated

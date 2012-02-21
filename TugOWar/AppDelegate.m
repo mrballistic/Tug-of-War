@@ -3,7 +3,7 @@
 //  TugOWar
 //
 //  Created by Todd Greco on 2/21/12.
-//  Copyright (c) 2012 fashionBuddha. All rights reserved.
+//  Copyright (c) 2012 carlscripter.com. All rights reserved.
 //
 
 #import "AppDelegate.h"

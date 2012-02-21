@@ -15,6 +15,17 @@
 		05BABD1A14F41619001CF318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD1914F41619001CF318 /* AppDelegate.m */; };
 		05BABD1D14F41619001CF318 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BABD1B14F41619001CF318 /* MainStoryboard.storyboard */; };
 		05BABD2014F41619001CF318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD1F14F41619001CF318 /* ViewController.m */; };
+		05BABD2814F416B4001CF318 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BABD2714F416B4001CF318 /* CoreImage.framework */; };
+		05BABD2A14F416C1001CF318 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BABD2914F416C1001CF318 /* GameKit.framework */; };
+		05BABD2D14F416E6001CF318 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BABD2B14F416E6001CF318 /* MobileCoreServices.framework */; };
+		05BABD2E14F416E6001CF318 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BABD2C14F416E6001CF318 /* QuartzCore.framework */; };
+		05BABD3614F41737001CF318 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD3114F41737001CF318 /* UIImage+Alpha.m */; };
+		05BABD3714F41737001CF318 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD3314F41737001CF318 /* UIImage+Resize.m */; };
+		05BABD3814F41737001CF318 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BABD3514F41737001CF318 /* UIImage+RoundedCorner.m */; };
+		05BABD4814F419FF001CF318 /* Icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BABD4714F419FF001CF318 /* Icon_72.png */; };
+		05BABD4A14F41A0B001CF318 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BABD4914F41A0B001CF318 /* Default-Portrait~ipad.png */; };
+		05BABD4C14F41A15001CF318 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 05BABD4B14F41A15001CF318 /* Default-Landscape~ipad.png */; };
+		05BABD4F14F41C11001CF318 /* Knockout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05BABD4E14F41C11001CF318 /* Knockout.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +33,36 @@
 		05BABD0914F41619001CF318 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05BABD0B14F41619001CF318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05BABD0D14F41619001CF318 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		05BABD1114F41619001CF318 /* TugOWar-Info.plist */ = {isa = PBXFileReference; path = "TugOWar-Info.plist"; sourceTree = "<group>"; };
+		05BABD1114F41619001CF318 /* TugOWar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TugOWar-Info.plist"; sourceTree = "<group>"; };
 		05BABD1314F41619001CF318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05BABD1514F41619001CF318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05BABD1714F41619001CF318 /* TugOWar-Prefix.pch */ = {isa = PBXFileReference; path = "TugOWar-Prefix.pch"; sourceTree = "<group>"; };
-		05BABD1814F41619001CF318 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		05BABD1714F41619001CF318 /* TugOWar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TugOWar-Prefix.pch"; sourceTree = "<group>"; };
+		05BABD1814F41619001CF318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05BABD1914F41619001CF318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		05BABD1C14F41619001CF318 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		05BABD1E14F41619001CF318 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		05BABD1E14F41619001CF318 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		05BABD1F14F41619001CF318 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05BABD2714F416B4001CF318 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		05BABD2914F416C1001CF318 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		05BABD2B14F416E6001CF318 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		05BABD2C14F416E6001CF318 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		05BABD3014F41737001CF318 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		05BABD3114F41737001CF318 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		05BABD3214F41737001CF318 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		05BABD3314F41737001CF318 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		05BABD3414F41737001CF318 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		05BABD3514F41737001CF318 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		05BABD3A14F417EF001CF318 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		05BABD3B14F419BA001CF318 /* Icon_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_29.png; sourceTree = "<group>"; };
+		05BABD3C14F419BA001CF318 /* Icon_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_50.png; sourceTree = "<group>"; };
+		05BABD3D14F419BA001CF318 /* Icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_72.png; sourceTree = "<group>"; };
+		05BABD3E14F419BA001CF318 /* Icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_512.png; sourceTree = "<group>"; };
+		05BABD3F14F419BA001CF318 /* Landscape_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Landscape_launch.png; sourceTree = "<group>"; };
+		05BABD4014F419BA001CF318 /* Portrait_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portrait_launch.png; sourceTree = "<group>"; };
+		05BABD4714F419FF001CF318 /* Icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_72.png; path = ../Icon_72.png; sourceTree = "<group>"; };
+		05BABD4914F41A0B001CF318 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		05BABD4B14F41A15001CF318 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		05BABD4E14F41C11001CF318 /* Knockout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Knockout.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +71,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				05BABD0A14F41619001CF318 /* UIKit.framework in Frameworks */,
+				05BABD2D14F416E6001CF318 /* MobileCoreServices.framework in Frameworks */,
+				05BABD2E14F416E6001CF318 /* QuartzCore.framework in Frameworks */,
 				05BABD0C14F41619001CF318 /* Foundation.framework in Frameworks */,
 				05BABD0E14F41619001CF318 /* CoreGraphics.framework in Frameworks */,
+				05BABD2814F416B4001CF318 /* CoreImage.framework in Frameworks */,
+				05BABD2A14F416C1001CF318 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +103,10 @@
 		05BABD0814F41619001CF318 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05BABD2B14F416E6001CF318 /* MobileCoreServices.framework */,
+				05BABD2C14F416E6001CF318 /* QuartzCore.framework */,
+				05BABD2914F416C1001CF318 /* GameKit.framework */,
+				05BABD2714F416B4001CF318 /* CoreImage.framework */,
 				05BABD0914F41619001CF318 /* UIKit.framework */,
 				05BABD0B14F41619001CF318 /* Foundation.framework */,
 				05BABD0D14F41619001CF318 /* CoreGraphics.framework */,
@@ -83,6 +123,8 @@
 				05BABD1E14F41619001CF318 /* ViewController.h */,
 				05BABD1F14F41619001CF318 /* ViewController.m */,
 				05BABD1014F41619001CF318 /* Supporting Files */,
+				05BABD2F14F41737001CF318 /* Classes */,
+				05BABD2614F41658001CF318 /* assets */,
 			);
 			path = TugOWar;
 			sourceTree = "<group>";
@@ -90,12 +132,51 @@
 		05BABD1014F41619001CF318 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05BABD4B14F41A15001CF318 /* Default-Landscape~ipad.png */,
+				05BABD4914F41A0B001CF318 /* Default-Portrait~ipad.png */,
+				05BABD4714F419FF001CF318 /* Icon_72.png */,
 				05BABD1114F41619001CF318 /* TugOWar-Info.plist */,
 				05BABD1214F41619001CF318 /* InfoPlist.strings */,
 				05BABD1514F41619001CF318 /* main.m */,
 				05BABD1714F41619001CF318 /* TugOWar-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05BABD2614F41658001CF318 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				05BABD4D14F41C11001CF318 /* fonts */,
+				05BABD3B14F419BA001CF318 /* Icon_29.png */,
+				05BABD3C14F419BA001CF318 /* Icon_50.png */,
+				05BABD3D14F419BA001CF318 /* Icon_72.png */,
+				05BABD3E14F419BA001CF318 /* Icon_512.png */,
+				05BABD3F14F419BA001CF318 /* Landscape_launch.png */,
+				05BABD4014F419BA001CF318 /* Portrait_launch.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		05BABD2F14F41737001CF318 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05BABD3A14F417EF001CF318 /* Constants.h */,
+				05BABD3014F41737001CF318 /* UIImage+Alpha.h */,
+				05BABD3114F41737001CF318 /* UIImage+Alpha.m */,
+				05BABD3214F41737001CF318 /* UIImage+Resize.h */,
+				05BABD3314F41737001CF318 /* UIImage+Resize.m */,
+				05BABD3414F41737001CF318 /* UIImage+RoundedCorner.h */,
+				05BABD3514F41737001CF318 /* UIImage+RoundedCorner.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		05BABD4D14F41C11001CF318 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05BABD4E14F41C11001CF318 /* Knockout.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +206,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = fashionBuddha;
+				ORGANIZATIONNAME = carlscripter.com;
 			};
 			buildConfigurationList = 05BABCFF14F41619001CF318 /* Build configuration list for PBXProject "TugOWar" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -151,6 +232,10 @@
 			files = (
 				05BABD1414F41619001CF318 /* InfoPlist.strings in Resources */,
 				05BABD1D14F41619001CF318 /* MainStoryboard.storyboard in Resources */,
+				05BABD4814F419FF001CF318 /* Icon_72.png in Resources */,
+				05BABD4A14F41A0B001CF318 /* Default-Portrait~ipad.png in Resources */,
+				05BABD4C14F41A15001CF318 /* Default-Landscape~ipad.png in Resources */,
+				05BABD4F14F41C11001CF318 /* Knockout.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +249,9 @@
 				05BABD1614F41619001CF318 /* main.m in Sources */,
 				05BABD1A14F41619001CF318 /* AppDelegate.m in Sources */,
 				05BABD2014F41619001CF318 /* ViewController.m in Sources */,
+				05BABD3614F41737001CF318 /* UIImage+Alpha.m in Sources */,
+				05BABD3714F41737001CF318 /* UIImage+Resize.m in Sources */,
+				05BABD3814F41737001CF318 /* UIImage+RoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
